@@ -65,9 +65,11 @@ you open the program.
     on the website, this will be `archipelago.gg:<port>`, where `<port>` is the port number. If a game is hosted from the
     `ArchipelagoServer.exe` (without `.exe` on Linux), the port number will default to `38281` but may be changed in the
     `host.yaml`.
-10. **Use the `/cemu` command in the client once you've connected**. The client should notify that Cemu connected succesfully. 
+8. **Use the `/cemu` command in the client once you've connected**. The client should notify that Cemu connected succesfully. 
     You can start playing.
-11. Optionnaly, connect the integrated tracker. In the TWWHD AP Randomizer Build program, go into the Tracker tab and
+> [!IMPORTANT]  
+> The client will ask you **to enter a base address**, this is the base memory address of your emulator. You find it inside the cemu log `<path-to-cemu-folder>/log.txt` look for a line that looks something like this: `Init Wii U memory space (base: 0x00000247b6050000)` it should be somewhere near the top. Copy `0x00000247b6050000` and paste it into your client, when it asks for `Enter base address:`. If done correctly it should show `Cemu connected successfully`.
+10. Optionnaly, connect the integrated tracker. In the TWWHD AP Randomizer Build program, go into the Tracker tab and
     input your room informations, then connect. This will track the locations checked and items recieved. If connecting to a
     locally hosted room, make sure to specify the port (default is `38281`)
 
