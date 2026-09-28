@@ -69,7 +69,7 @@ you open the program.
     You can start playing.
 > [!IMPORTANT]  
 > The client will ask you **to enter a base address**, this is the base memory address of your emulator. You find it inside the cemu log `<path-to-cemu-folder>/log.txt` look for a line that looks something like this: `Init Wii U memory space (base: 0x00000247b6050000)` it should be somewhere near the top. Copy `0x00000247b6050000` and paste it into your client, when it asks for `Enter base address:`. If done correctly it should show `Cemu connected successfully`.
-10. Optionnaly, connect the integrated tracker. In the TWWHD AP Randomizer Build program, go into the Tracker tab and
+9. Optionnaly, connect the integrated tracker. In the TWWHD AP Randomizer Build program, go into the Tracker tab and
     input your room informations, then connect. This will track the locations checked and items recieved. If connecting to a
     locally hosted room, make sure to specify the port (default is `38281`)
 
